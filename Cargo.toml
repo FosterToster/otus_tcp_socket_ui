@@ -4,3 +4,4 @@ members = [
     "tcp_socket/shtp",
     "tcp_socket_ui"
 ]
+resolver = "2"

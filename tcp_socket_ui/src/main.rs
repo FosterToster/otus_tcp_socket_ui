@@ -1,3 +1,9 @@
+mod app;
+
+use app::App;
+use iced::{Settings, Application};
 fn main() {
-    println!("Hello, world!");
+    App::run(
+        Settings::default()
+    ).unwrap()
 }
