@@ -1,0 +1,5 @@
+[submodule "tcp_socket"]
+	path = tcp_socket
+	url = https://github.com/FosterToster/otus_tcp_socket.git
+[submodule "./tcp_socket"]
+	branch = raw_client
