@@ -7,3 +7,6 @@ edition = "2021"
 
 [dependencies]
 iced = {path="../../iced"}
+iced_native = { path = "../../iced/native" }
+iced_lazy = { path = "../../iced/lazy" }
+shtp = {path="../tcp_socket/shtp"}

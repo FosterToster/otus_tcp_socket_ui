@@ -1,9 +1,15 @@
 mod app;
 
-use app::App;
-use iced::{Settings, Application};
+use iced::{Settings, Application, window};
 fn main() {
-    App::run(
-        Settings::default()
+    app::App::run(
+        Settings {
+            window: window::Settings {
+                size: (320, 240),
+                ..window::Settings::default()
+            },
+            ..Settings::default()
+        }
+        
     ).unwrap()
 }
