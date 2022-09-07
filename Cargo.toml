@@ -1,6 +1,5 @@
 [workspace]
 members = [
-    "tcp_socket/socket_client",
     "tcp_socket/shtp",
     "tcp_socket_ui"
 ]

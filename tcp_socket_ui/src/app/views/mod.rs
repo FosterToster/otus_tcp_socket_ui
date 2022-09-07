@@ -1,5 +1,5 @@
-mod connected_view;
 mod connect_view;
+mod connected_view;
 
-pub use connected_view::ConnectedView;
 pub use connect_view::ConnectView;
+pub use connected_view::ConnectedView;
